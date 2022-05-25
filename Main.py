@@ -4,7 +4,7 @@ import numpy as np
 from sklearn.feature_selection import SelectKBest, mutual_info_regression
 from sklearn.feature_selection import chi2
 import plott
-from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LinearRegression
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.neural_network import MLPClassifier
 from numpy import mean
